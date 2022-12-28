@@ -1,0 +1,95 @@
+
+.App{
+  display: flex;
+  background-color: #282c34;
+  position: absolute;
+  top: 0; right: 0; left: 0; bottom: 0
+}
+
+.sidemenu{
+  padding: 10px;
+  width: 240px;
+  color: white;
+  background-color: #202123;
+}
+
+.sidemenu-button{
+  padding: 12px;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.25s all;
+}
+
+.sidemenu-button:hover{
+  background-color: rgba(255,255,255,0.1);
+}
+
+.sidemenu span{
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.chat-input-holder{
+  padding: 24px;
+  position: absolute;
+  bottom: .3em;
+  left: 0; right: 0;
+}
+
+.chat-input-holder-textarea{
+  background-color: #40414f;
+  width: 100%;
+  border: 5%;
+  border: none;
+  outline: none;
+  padding: 8px;
+  color: white;
+  font-size: 1.25em;
+  box-shadow: 0 0 8px rgba(0,0,0,0.25);
+  border-radius: 5px;
+
+}
+
+.chatbox{
+  position: relative;
+  flex: 1;
+  color: white;
+  /* border: 1px solid white; */
+  background-color: #343541;
+}
+
+.chat-log{
+  text-align: left;
+}
+
+.chat-message.chatgtp{
+  background-color: rgba(255,255,255,0.1); 
+}
+
+.chat-message-center{
+  max-width: 480px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.avatar.c{
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.chatgtp{
+  background-color: lightgreen;
+  width: 35px;
+  height: 35px;
+}
+
+.message{
+
+}
